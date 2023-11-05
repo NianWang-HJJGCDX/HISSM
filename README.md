@@ -13,10 +13,10 @@ The main body of code see figure
 * Dataset: include some testing datasets.
 # For quantitative comparison
 First set runtimes and test datasets in Run_HISSM.m 
-'''
+```
 runtimes = 1; % running times on each dataset, default: 1
 dataname = {'MSRCV1','COIL20-3v','3Sources','HW2sources','ORL','BBC','BRCA','Hdigit','yaleA'};
-'''
+```
 Then run  Run_HISSM.m. ALL the results in the paper are obtained simultaneous and recorded as the following forms.
 # For result record
 
@@ -31,5 +31,5 @@ Then run  Run_HISSM.m. ALL the results in the paper are obtained simultaneous an
 
 
 * For time cost, we record the results of each dataset separately. The description of data record is shown in the figure.
-![图 9](images/67b99001cadad17e185e2b32f92f8bc57c4ceec11c903fa7c98e1777f113e08a.png)  
+ ![图 9](images/67b99001cadad17e185e2b32f92f8bc57c4ceec11c903fa7c98e1777f113e08a.png)  
 
