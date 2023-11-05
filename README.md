@@ -17,19 +17,15 @@ First set runtimes and test datasets in Run_HISSM.m
 runtimes = 1; % running times on each dataset, default: 1
 dataname = {'MSRCV1','COIL20-3v','3Sources','HW2sources','ORL','BBC','BRCA','Hdigit','yaleA'};
 ```
-Then run  Run_HISSM.m. ALL the results in the paper are obtained simultaneous and recorded as the following forms.
+Then run  Run_HISSM.m. ALL the results in the paper are obtained simultaneously and recorded as the following forms.
 # For result record
 
 * For y_ini and y, we record the results of each dataset separately. The results includes  accuracy (ACC),Normalized Mutual Information(NMI),Purity(Pu)
-,Fscore,Precision(Pre),Recall(Rec)，Adjusted Rand Index (ARI)，average value (AVE.) and Standard deviation (Std.). The description of data record is shown in the figure.
+,Fscore,Precision(Pre),Recall(Rec)，Adjusted Rand Index (ARI)，average value (AVE.) of different running  and Standard deviation (Std.) of different running. Suppose the runtimes = 2 is set, the  data record is shown in the figure.
 ![图 6](images/6789af27adb68cde82a3cf2e6f5f80ec6de5a462f2474a7591823dc0c24d87a2.png)  
 ![图 7](images/8320885086088136507b7880fec0533b65d6ebbe88b5528a215a65ff64f37403.png)  
-
-
-* For better comparing y_ini and y, we all record the results of all dataset together. The description of data record is shown in the figure.
+* For better comparing y_ini and y, we all record the results of all dataset together.  The data record is shown in the figure.
   ![图 8](images/6d0a6ddf65ef834aad56749f28e935073d078e31b401c0ce887ea062f0e2d381.png)  
-
-
-* For time cost, we record the results of each dataset separately. The description of data record is shown in the figure.
- ![图 9](images/67b99001cadad17e185e2b32f92f8bc57c4ceec11c903fa7c98e1777f113e08a.png)  
+* For time cost, we record the results of each dataset separately. The  data record is shown in the figure.
+  ![图 9](images/67b99001cadad17e185e2b32f92f8bc57c4ceec11c903fa7c98e1777f113e08a.png)  
 
