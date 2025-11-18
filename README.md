@@ -2,14 +2,11 @@
 This is the official Matlab implementation of  paper "Fast Multi-view Graph-based Clustering via Hierarchical Initialization and Supercluster Similarity Minimization". The proposed HISSM model includes two steps named as Hierarchical Initialization(HI) and Supercluster Similarity Minimization(SSM), where HI is an initialization method and SSM multi-view clustering model for discrete cluster indicators, respectively.  Our work enables  to perform second-level calculations on a nxn graph with a sample size of 10,000 in just a few seconds.
 ## Usage
 # Main body 
-The main body of code see figure
-![图 5](images/3e8c83c808421509a1ea93e632006b00ff09136712368bfa3408615deeede001.png)  
-
-* Y_Initialize: different initial methods.
+* funs: include some used functions.
+* fun/Y_Initialize: different initial methods.
 * Results_y_ini: record the results of initial label of proposed HI method.
 * Results_y: record the results of refined label of proposed SSM method.
 * Results_y_compare: record the results after HI and SSM on all testing datasets.
-* funs: include some used functions.
 * Dataset: include some testing datasets.
 # For quantitative comparison
 First, set runtimes and test datasets in Run_HISSM.m 
