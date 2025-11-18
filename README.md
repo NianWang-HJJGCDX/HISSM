@@ -1,5 +1,5 @@
 ## HISSM model for multiview clustering
-This is a Matlab implementation of our paper "Fast Multi-view Graph-based Clustering via Hierarchical Initialization and Supercluster Similarity Minimization". Code will be updated after paper is published. The proposed HISSM model includes two steps named as Hierarchical Initialization(HI) and Supercluster Similarity Minimization(SSM).
+This is the official Matlab implementation of  paper "Fast Multi-view Graph-based Clustering via Hierarchical Initialization and Supercluster Similarity Minimization". The proposed HISSM model includes two steps named as Hierarchical Initialization(HI) and Supercluster Similarity Minimization(SSM), where HI is an initialization method and SSM multi-view clustering model for discrete cluster indicators, respectively.  Our work enables  to perform second-level calculations on a nxn graph with a sample size of 10,000 in just a few seconds.
 ## Usage
 # Main body 
 The main body of code see figure
@@ -29,3 +29,18 @@ Then, run  Run_HISSM.m. ALL the results in the paper are obtained simultaneously
 * For time cost, we record the results of each dataset separately. The  data record is shown in the figure.
   ![图 9](images/67b99001cadad17e185e2b32f92f8bc57c4ceec11c903fa7c98e1777f113e08a.png)  
 
+# Acknowledge
+This work  partly relies on the following paper. We sincerely think their outstanding contributions.
+
+[1] Sarfraz S, Sharma V, Stiefelhagen R. Efficient parameter-free clustering using first neighbor relations[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2019: 8934-8943.
+[2] Nie F, Lu J, Wu D, et al. A novel normalized-cut solver with nearest neighbor hierarchical initialization[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023, 46(1): 659-666.
+# Citation
+If you use our code, please kindly cite our paper by
+
+```
+@Article{HISSM,
+AUTHOR = {Wang, Nian and Cui, Zhigao and Lan, Yunwei and Zhang, Cong and Xue, Yuanliang and Su, Yanzhao and Li, Aihua},
+TITLE = {Discrete Multi-view Graph-based Clustering via Hierarchical Initialization and Supercluster Similarity Minimization},
+JOURNAL = {Neurocomputing},
+YEAR = {2025},
+}
