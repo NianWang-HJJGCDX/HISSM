@@ -1,4 +1,4 @@
-# HISSM model for multiview clustering
+# [Neuro 2025] HISSM model for multiview clustering
 ## Contributions
 This is the official Matlab implementation of  paper "Fast Multi-view Graph-based Clustering via Hierarchical Initialization and Supercluster Similarity Minimization". The proposed HISSM model includes two steps named as Hierarchical Initialization(HI) and Supercluster Similarity Minimization(SSM), where HI is an initialization method and SSM multi-view clustering model for discrete cluster indicators, respectively.  Our work enables  to perform second-level calculations on a nxn graph with a sample size of 10,000 in just a few seconds.
 
