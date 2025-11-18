@@ -30,6 +30,7 @@ Then, run  Run_HISSM.m. ALL the results in the paper are obtained simultaneously
 This work  partly relies on the following paper. We sincerely think their outstanding contributions.
 
 [1] Sarfraz S, Sharma V, Stiefelhagen R. Efficient parameter-free clustering using first neighbor relations[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2019: 8934-8943.
+
 [2] Nie F, Lu J, Wu D, et al. A novel normalized-cut solver with nearest neighbor hierarchical initialization[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023, 46(1): 659-666.
 # Citation
 If you use our code, please kindly cite our paper by
